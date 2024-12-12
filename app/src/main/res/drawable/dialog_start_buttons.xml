@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#1342DD"/> <!-- Цвет при нажатии -->
+                    <stroke android:width="3dp" android:color="#1031A2"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#1137B6"/> <!-- Обычный цвет -->
+                    <stroke android:width="3dp" android:color="#1031A2"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

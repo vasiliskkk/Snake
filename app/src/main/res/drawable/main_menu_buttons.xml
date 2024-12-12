@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#2E9943"/> <!-- Цвет при нажатии -->
+                    <corners android:radius="40dp"/> <!-- Скругление углов -->
+                    <stroke android:width="3dp" android:color="#257935"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/button_shine" android:gravity="center"/>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#288139"/> <!-- Обычный цвет -->
+                    <corners android:radius="40dp"/> <!-- Скругление углов -->
+                    <stroke android:width="3dp" android:color="#257935"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/button_shine" android:gravity="center"/>
+        </layer-list>
+    </item>
+</selector>

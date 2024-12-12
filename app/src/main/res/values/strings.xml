@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Snake</string>
+    <string name="main_menu">TODO</string>
+    <string name="gbackground">TODO</string>
+    <string name="Играть">играть</string>
+    <string name="Натройки">Настройки</string>
+    <string name="Выход">Выход</string>
+    <string name="settings">TODO</string>
+    <string name="Menu">Меню</string>
+    <string name="Settings">Настройки</string>
+    <string name="Play">Играть</string>
+    <string name="exit">TODO</string>
+    <string name="left">◀</string>
+    <string name="up">▲</string>
+    <string name="down">▼</string>
+    <string name="right">▶</string>
+    <string name="normal_mode">Обычный режим</string>
+    <string name="obstacle_course_mode">Режим с препятствиями</string>
+    <string name="backtoMenu">Меню</string>
+</resources>
